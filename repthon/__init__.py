@@ -13,12 +13,12 @@ from .helpers.utils.utils import runasync
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.3"
-__license__ = "حقـوق سـورس ريبـــثون"
-__author__ = "ريبـــثون <https://T.me/Repthon>"
-__copyright__ = "Repthon Source (C) 2020 - 2024  " + __author__
+__license__ = "حقـوق سـورس 𝑯𝑺𝒕𝒉𝒐𝒏"
+__author__ = "𝑯𝑺𝒕𝒉𝒐𝒏 <https://T.me/Hsthon>"
+__copyright__ = "HSthon Source (C) 2026 - 2027  " + __author__
 
 zq_lo.version = __version__
-LOGS = logging.getLogger("𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
+LOGS = logging.getLogger("𝑯𝑺𝒕𝒉𝒐𝒏")
 bot = zq_lo
 
 StartTime = time.time()
