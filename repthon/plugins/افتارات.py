@@ -37,7 +37,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(REPTHON),
-            caption=f"**🎆┊حـالات واتـس قصيـرة 🧸♥️**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**🎆┊حـالات واتـس قصيـرة 🧸♥️**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await repevent.delete()
     except Exception:
@@ -79,7 +79,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedgan),
-            caption=f"**◞مقاطـع رقيـه شرعيـة ➧🕋🌸◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞مقاطـع رقيـه شرعيـة ➧🕋🌸◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await repevent.delete()
     except Exception:
@@ -100,7 +100,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات شبـاب ࢪمـاديه ➧🎆🖤◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات شبـاب ࢪمـاديه ➧🎆🖤◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -121,7 +121,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات بنـات ࢪمـاديه ➧🎆🤎◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات بنـات ࢪمـاديه ➧🎆🤎◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -142,7 +142,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات بيست تطقيـم بنـات ➧🎆🧚🏻‍♀🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات بيست تطقيـم بنـات ➧🎆🧚🏻‍♀🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -163,7 +163,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات حـب تمبلـرࢪ ➧🎆♥️◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات حـب تمبلـرࢪ ➧🎆♥️◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -184,7 +184,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(ZTHONR),
-            caption=f"** 🎬┊رياكشـن تحشيـش ➧🎃😹◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"** 🎬┊رياكشـن تحشيـش ➧🎃😹◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -205,7 +205,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(ZTHONR),
-            caption=f"**🎬┊مقاطـع ايـدت منوعـه ➧ 🖤🎭◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**🎬┊مقاطـع ايـدت منوعـه ➧ 🖤🎭◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -226,7 +226,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedgan),
-            caption=f"**✦┊تم اختياࢪ الاغنيـه لك 💞🎶**ٴ▁ ▂ ▉ ▄ ▅ ▆ ▇ ▅ ▆ ▇ █ ▉ ▂ ▁\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**✦┊ فـريـق HS تم اختياࢪ الاغنيـه لك 💞🎶**ٴ▁ ▂ ▉ ▄ ▅ ▆ ▇ ▅ ▆ ▇ █ ▉ ▂ ▁\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -247,7 +247,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedgan),
-            caption=f"**✦┊تم اختيـار مقطـع الشعـر هـذا لك**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**✦┊تم اختيـار مقطـع الشعـر هـذا لك**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -268,7 +268,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedgan),
-            caption=f"**✦┊تم اختيـار مقطـع الميمـز هـذا لك**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**✦┊تم اختيـار مقطـع الميمـز هـذا لك**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -289,7 +289,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedre),
-            caption=f"**🎆┊رياكشـن تحشيـش ➧🎃😹◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**🎆┊رياكشـن تحشيـش ➧🎃😹◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -310,7 +310,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**🎆┊صـورة ومعلومـة ➧ 🛤💡◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**🎆┊صـورة ومعلومـة ➧ 🛤💡◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -331,7 +331,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedre),
-            caption=f"**✦┊كـت تـويت بالصـور ➧⁉️🌉◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**✦┊كـت تـويت بالصـور ➧⁉️🌉◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -352,7 +352,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**✦┊لـو خيـروك  ➧⁉️🌉◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**✦┊لـو خيـروك  ➧⁉️🌉◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -373,7 +373,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات آنمي شبـاب ➧🎆🙋🏻‍♂◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات آنمي شبـاب ➧🎆🙋🏻‍♂◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -394,7 +394,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات آنمي بنـات ➧🎆🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات آنمي بنـات ➧🎆🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -415,7 +415,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedph),
-            caption=f"**◞افتـارات بنـات تمبلـرࢪ ➧🎆🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات بنـات تمبلـرࢪ ➧🎆🧚🏻‍♀◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await zzevent.delete()
     except Exception:
@@ -436,7 +436,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(repph),
-            caption=f"**◞افتـارات كــرة قـدم ➧🎆⚽◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝙍𝙀𝙋𝙏𝙃𝙊𝙉](https://t.me/Repthon)",
+            caption=f"**◞افتـارات كــرة قـدم ➧🎆⚽◟**\n\n[➧𝙎𝙤𝙪𝙧𝙘𝙚 𝑯𝑺𝑻𝑯𝑶𝑵](https://t.me/HSTHON)",
         )
         await repevent.delete()
     except Exception:
