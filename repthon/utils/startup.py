@@ -38,7 +38,7 @@ LOGS = logging.getLogger("𝑯𝑺𝒕𝒉𝒐𝒏")
 cmdhr = Config.COMMAND_HAND_LER
 Rep_Vip = (1260465030, 1960777228)
 Rep_Dev = (5502537272)
-rchannel = {"@HSthon_up", "@Hsthon", "@Hsthon_VARS", "@Repthon_vars", "@HSthon_DAOM", "@HSTHON_iconat", "@m4m4m4", "@xxfir", "@hsthon_help", "@@oloa4", "@devs_HsThon"}
+rchannel = {"@HSthon_up", "@Hsthon", "@Hsthon_VARS", "@Repthon_vars", "@HSthon_DAOM", "@HSTHON_iconat", "@m4m4m4", "@oloa4", "@hsthon_help", "@@oloa4", "@devs_HsThon"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
