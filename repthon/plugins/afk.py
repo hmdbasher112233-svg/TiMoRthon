@@ -203,7 +203,7 @@ async def _(event):
                 )
 
 
-@zq_lo.rep_cmd(pattern="سليب_ميديا(?:\s|$)([\s\S]*)")
+@m4m4m4t.rep_cmd(pattern="سليب_ميديا(?:\s|$)([\s\S]*)")
 async def _(event):
     reply = await event.get_reply_message()
     media_t = media_type(reply)
