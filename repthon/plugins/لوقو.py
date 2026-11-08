@@ -183,7 +183,7 @@ async def lg1(userevent):
     await bot.send_file(
         userevent.chat_id,
         file_name,
-        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @Repthon**",
+        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @HSTHON**",
     )
     await event.delete()
     try:
