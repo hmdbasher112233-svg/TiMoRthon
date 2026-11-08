@@ -35,14 +35,14 @@ from ..helpers.utils import reply_id
 plugin_category = "البوت"
 
 
-# code by t.me/E_7_V
-@zq_lo.rep_cmd(pattern="ريبثون(?: |$)(.*)")
+# code by t.me/M4M4M4T
+@zq_lo.rep_cmd(pattern="اج اس ثون(?: |$)(.*)")
 async def repthon_gpt(event):
     zilzal = event.pattern_match.group(1)
     zzz = await event.get_reply_message()
     chat = "@GPT4Telegrambot" #code by t.me/zzzzl1l
     if not zilzal and not event.reply_to_msg_id:
-        return await edit_or_reply(event, "**⎉╎بالـرد ع سـؤال او باضـافة السـؤال للامـر**\n**⎉╎مثـــال :**\n`.ريبثون من هو مكتشف الجاذبية الارضية`")
+        return await edit_or_reply(event, "**⎉╎بالـرد ع سـؤال او باضـافة السـؤال للامـر**\n**⎉╎مثـــال :**\n`.HSTHON من هو مكتشف الجاذبية الارضية`")
     if not zilzal and event.reply_to_msg_id and zzz.text: #code by t.me/zzzzl1l
         zelzal = zzz.text
     if not event.reply_to_msg_id: #code by t.me/zzzzl1l
@@ -84,7 +84,7 @@ async def repthon_gpt(event):
                 aa = malath.replace("I'm sorry, I'm not quite understanding the question. Could you please rephrase it?", "**- عـذراً .. لم أفهم سؤالك\n- قم بـ إعادة صياغته من فضلك؟!**") 
                 await event.delete()
                 return await borg.send_message(event.chat_id, aa)
-            if "Please wait a moment" in zedthon.text: #code by t.me/zzzzl1l
+            if "Please wait a moment" in zedthon.text: #code by t.me/HSTHON
                 await asyncio.sleep(5)
                 zedthon = await conv.get_response()
                 malath = zedthon.text
@@ -99,9 +99,9 @@ async def repthon_gpt(event):
 async def zelzal_gpt(event):
     zilzal = event.pattern_match.group(1)
     zzz = await event.get_reply_message()
-    chat = "@GPT4Telegrambot" #code by t.me/zzzzl1l
+    chat = "@GPT4Telegrambot" #code by t.me/HSTHON
     if not zilzal and not event.reply_to_msg_id:
-        return await edit_or_reply(event, "**⎉╎بالـرد ع سـؤال او باضـافة السـؤال للامـر**\n**⎉╎مثـــال :**\n`.ريبثون من هو مكتشف الجاذبية الارضية`")
+        return await edit_or_reply(event, "**⎉╎بالـرد ع سـؤال او باضـافة السـؤال للامـر**\n**⎉╎مثـــال :**\n`.HSTHON من هو مكتشف الجاذبية الارضية`")
     if not zilzal and event.reply_to_msg_id and zzz.text: #code by t.me/zzzzl1l
         zelzal = zzz.text
     if not event.reply_to_msg_id: #code by t.me/zzzzl1l
@@ -128,7 +128,7 @@ async def zelzal_gpt(event):
                 zedthon = await conv.get_response()
                 malath = zedthon.text
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**س/ {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗲𝗽𝘁𝗵𝗼𝗻 𝗨**ꜱᴇʀʙᴏᴛ** 𝗧**ꜱᴇʀʙᴏᴛ**\n\t\t\t\t\t\t\t\t𝐁𝐀𝐐𝐈𝐑 • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**س/ {zelzal}\n\n{malath}**\n\n───────────────────\n𝑯𝑺𝑻𝑯𝑶𝑵 𝗨**ꜱᴇʀʙᴏᴛ** 𝗧**ꜱᴇʀʙᴏᴛ**\n\t\t\t\t\t\t\t\t𝑻𝑰𝑴𝑶𝑹 • ᴼᵖᵉⁿᴬᴵ")
         except YouBlockedUserError: #code by t.me/zzzzl1l
             await zq_lo(unblock("GPT4Telegrambot"))
             await conv.send_message("/start")
@@ -148,4 +148,4 @@ async def zelzal_gpt(event):
                 await event.delete()
                 return await borg.send_message(event.chat_id, aa)
             await zed.delete()
-            await borg.send_message(event.chat_id, f"**س/ {zelzal}\n\n{malath}**\n\n───────────────────\n𝗥𝗲𝗽𝘁𝗵𝗼𝗻 𝗨**ꜱᴇʀʙᴏᴛ** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t𝐁𝐀𝐐𝐈𝐑 • ᴼᵖᵉⁿᴬᴵ")
+            await borg.send_message(event.chat_id, f"**س/ {zelzal}\n\n{malath}**\n\n───────────────────\n𝑯𝑺𝑻𝑯𝑶𝑵 𝗨**ꜱᴇʀʙᴏᴛ** 𝗧**ᴏᴏʟꜱ**\n\t\t\t\t\t\t\t\t𝑻𝑰𝑴𝑶𝑹 𝑯𝑴𝑫 • ᴼᵖᵉⁿᴬᴵ")
