@@ -34,11 +34,11 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
+LOGS = logging.getLogger("𝑯𝑺𝒕𝒉𝒐𝒏")
 cmdhr = Config.COMMAND_HAND_LER
 Rep_Vip = (1260465030, 1960777228)
 Rep_Dev = (5502537272)
-rchannel = {"@Repthon", "@Repthonn", "@Repthon_up", "@Repthon_vars", "@Repthon_support", "@Repthon_cklaish", "@ZQ_LO", "@xxfir", "@Repthon_help", "@roger21v", "@Devs_Repthon"}
+rchannel = {"@HSthon_up", "@Hsthon", "@Hsthon_VARS", "@Repthon_vars", "@HSthon_DAOM", "@HSTHON_iconat", "@m4m4m4", "@xxfir", "@hsthon_help", "@@oloa4", "@devs_HsThon"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
@@ -132,12 +132,11 @@ async def setup_bot():
         sys.exit()
 
 
-async def mybot(): #Code by T.me/E_7_V
-    BAQIR = bot.me.first_name
+async def mybot(): #Code by T.me/m4m4m4t
     Taiba = bot.uid
     ba_qir = f"[{BAQIR}](tg://user?id={Taiba})"
-    f"ـ {ba_qir}"
-    f"•⎆┊هــذا البــوت خــاص بـ {ba_qir} يمكـنك التواصــل معـه هـنا 🧸♥️"
+    f"ـ {tiMor}"
+    f"•⎆┊هــذا البــوت خــاص بـ {tiMor} يمكـنك التواصــل معـه هـنا 🧸♥️"
     babot = await zq_lo.tgbot.get_me()
     bot_name = babot.first_name
     botname = f"@{babot.username}"
@@ -149,7 +148,7 @@ async def mybot(): #Code by T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "ريبـــثون")
+            await bot.send_message("@BotFather", "HSthon")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -167,13 +166,13 @@ async def mybot(): #Code by T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت ريبـــثون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name}")
+            await bot.send_message("@BotFather", f"- بـوت 𝑯𝒔𝒕𝒐𝒉𝒏 المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name}")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {ba_qir} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Repthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {timor} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @HSthon 🌐")
         except Exception as e:
             print(e)
 
@@ -191,8 +190,8 @@ async def startupmessage():
             Config.ZQ_LOBLOGO = await zq_lo.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://graph.org/file/f367d5a4a6bf1fbfc99b9.mp4",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبـــثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙍𝙀𝙋𝙏𝙃𝙊𝙉𓅛✓", "https://t.me/Repthon"),)],
+                caption="**•⎆┊تـم بـدء تشغـيل سـورس 𝑯𝑺𝒕𝒉𝒐𝒏 الخاص بك .. بنجاح 🧸♥️**",
+                buttons=[(Button.url("𝑯𝒔𝒕𝒉𝒐𝒏✓", "https://t.me/Hsthon"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -208,7 +207,7 @@ async def startupmessage():
         if msg_details:
             await zq_lo.check_testcases()
             message = await zq_lo.get_messages(msg_details[0], ids=msg_details[1])
-            text = message.text + "\n\n**•⎆┊تـم اعـادة تشغيـل السـورس بنجــاح 🧸♥️**"
+            text = message.text + "\n\n**•⎆ فـريـق HS معكم دائما┊تـم اعـادة تشغيـل السـورس بنجــاح 🧸♥️**"
             await zq_lo.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
                 await zq_lo.send_message(
@@ -377,7 +376,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على فار PM_LOGGER_GROUP_ID.\n" + str(e))
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن رسـائل الخـاص.)"
-        photozed = await zq_lo.upload_file(file="baqir/taiba/Repthon2.jpg")
+        photozed = await zq_lo.upload_file(")
         _, groupid = await create_supergroup(
             "مجمـوعـة التخـزيـن", zq_lo, Config.TG_BOT_USERNAME, descript, photozed
         )
