@@ -1,4 +1,4 @@
-import sys, asyncio
+import and sys, asyncio
 import repthon
 from repthon import BOTLOG_CHATID, HEROKU_APP, PM_LOGGER_GROUP_ID
 from telethon import functions
@@ -9,7 +9,7 @@ from .utils import mybot, saves, autoname
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
-LOGS = logging.getLogger("𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
+LOGS = logging.getLogger("𝑯𝒔𝒕𝒉𝒐𝒏")
 cmdhr = Config.COMMAND_HAND_LER
 
 if gvarstatus("ALIVE_NAME") is None: #Code by T.me/E_7_V
@@ -21,9 +21,9 @@ if gvarstatus("ALIVE_NAME") is None: #Code by T.me/E_7_V
         LOGS.error(f"- The AutoName {e}")
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل ريبـــثون ⌭")
+    LOGS.info("⌭ بـدء تنزيـل اچ اس ثون ⌭")
     zq_lo.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل ريبـــثون .. بـنجـاح ✓")
+    LOGS.info("✓ تـم تنزيـل اچ اس ثون .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
@@ -52,7 +52,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    LOGS.info(f"⌔ تـم تنصيـب ريبـــثون . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر ارسـل (.الاوامر)")
+    LOGS.info(f"⌔ تـم تنصيـب 𝑯𝑺𝒕𝒉𝒐𝒏 . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر ارسـل (.الاوامر)")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
